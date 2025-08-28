@@ -1,0 +1,8 @@
+tools:
+  - name: fs.search
+    desc: Search for files by pattern starting at a directory
+    runner: python
+    permissions: [filesystem]
+    args:
+      pattern: "str"
+      start_dir: "str"
